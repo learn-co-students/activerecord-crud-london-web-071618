@@ -1,3 +1,4 @@
+# require 'pry'
 require 'bundler/setup'
 Bundler.require
 
@@ -7,3 +8,7 @@ ActiveRecord::Base.establish_connection(
 )
 
 require_all 'app'
+
+
+
+# binding.pry
